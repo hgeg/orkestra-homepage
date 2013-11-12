@@ -1,0 +1,699 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Framework 1.0.08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-01 15:11+0100\n"
+"PO-Revision-Date: 2013-04-01 15:11+0100\n"
+"Last-Translator: Mattia Viviani <hello@mattiaviviani.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: ../404.php:15
+msgid "Sorry, but the page you were trying to reach could not be found. Perhaps searching will help find a related article."
+msgstr ""
+
+#: ../archive.php:11
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:13
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:15
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:22
+msgid "Portfolio Category Archives:"
+msgstr ""
+
+#: ../archive.php:30
+msgid "Portfolio Tag Archives:"
+msgstr ""
+
+#: ../archive.php:34
+msgid "Archives:"
+msgstr ""
+
+#: ../attachment.php:12
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: ../attachment.php:14
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../attachment.php:18
+#: ../format-aside.php:23
+#: ../format-audio.php:38
+#: ../format-gallery.php:23
+#: ../format-image.php:28
+#: ../format-link.php:20
+#: ../format-quote.php:18
+#: ../format-standard.php:23
+#: ../format-video.php:59
+msgid "Posted on"
+msgstr ""
+
+#: ../attachment.php:20
+#: ../format-aside.php:25
+#: ../format-audio.php:40
+#: ../format-gallery.php:25
+#: ../format-image.php:30
+#: ../format-link.php:22
+#: ../format-quote.php:20
+#: ../format-standard.php:25
+#: ../format-video.php:61
+msgid "by"
+msgstr ""
+
+#: ../attachment.php:24
+#: ../format-aside.php:29
+#: ../format-audio.php:44
+#: ../format-gallery.php:29
+#: ../format-image.php:34
+#: ../format-link.php:26
+#: ../format-quote.php:24
+#: ../format-standard.php:29
+#: ../format-video.php:65
+msgid "Add Comment"
+msgstr ""
+
+#: ../attachment.php:24
+msgid "<strong>1</strong> Comment"
+msgstr ""
+
+#: ../attachment.php:24
+msgid "<strong>%</strong> Comments"
+msgstr ""
+
+#: ../attachment.php:33
+#, php-format
+msgid "full size is %s pixels"
+msgstr ""
+
+#: ../attachment.php:36
+msgid "Link to full-size image"
+msgstr ""
+
+#: ../attachment.php:83
+#: ../format-aside.php:39
+#: ../format-audio.php:54
+#: ../format-gallery.php:43
+#: ../format-image.php:44
+#: ../format-link.php:36
+#: ../format-quote.php:43
+#: ../format-standard.php:39
+#: ../format-video.php:75
+#: ../functions.php:75
+msgid "Read More"
+msgstr ""
+
+#: ../author.php:9
+#, php-format
+msgid "Author Archive: %s"
+msgstr ""
+
+#: ../author.php:20
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../category.php:7
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../comments.php:15
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:38
+#: ../comments.php:57
+msgid "<span class=\"meta-nav\"></span> Older Comments"
+msgstr ""
+
+#: ../comments.php:39
+#: ../comments.php:58
+msgid "Newer Comments <span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: ../comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: ../format-aside.php:6
+#: ../format-audio.php:11
+#: ../format-gallery.php:6
+#: ../format-image.php:7
+#: ../format-link.php:7
+#: ../format-quote.php:7
+#: ../format-standard.php:6
+#: ../format-video.php:15
+msgid "Featured"
+msgstr ""
+
+#: ../format-aside.php:19
+msgid "Aside"
+msgstr ""
+
+#: ../format-aside.php:29
+#: ../format-audio.php:44
+#: ../format-gallery.php:29
+#: ../format-image.php:34
+#: ../format-link.php:26
+#: ../format-quote.php:24
+#: ../format-standard.php:29
+#: ../format-video.php:65
+msgid "<span>1</span> Comment"
+msgstr ""
+
+#: ../format-aside.php:29
+#: ../format-audio.php:44
+#: ../format-gallery.php:29
+#: ../format-image.php:34
+#: ../format-link.php:26
+#: ../format-standard.php:29
+#: ../format-video.php:65
+msgid "<span>%</span> Comments"
+msgstr ""
+
+#: ../format-aside.php:49
+#: ../format-aside.php:58
+#: ../format-audio.php:64
+#: ../format-audio.php:73
+#: ../format-gallery.php:73
+#: ../format-gallery.php:82
+#: ../format-image.php:54
+#: ../format-image.php:63
+#: ../format-link.php:46
+#: ../format-link.php:55
+#: ../format-quote.php:53
+#: ../format-quote.php:62
+#: ../format-standard.php:48
+#: ../format-standard.php:57
+#: ../format-video.php:85
+#: ../format-video.php:94
+msgid ", "
+msgstr ""
+
+#: ../format-aside.php:52
+#: ../format-audio.php:67
+#: ../format-gallery.php:76
+#: ../format-image.php:57
+#: ../format-link.php:49
+#: ../format-quote.php:56
+#: ../format-standard.php:51
+#: ../format-video.php:88
+#, php-format
+msgid "Posted in %2$s"
+msgstr ""
+
+#: ../format-aside.php:61
+#: ../format-audio.php:76
+#: ../format-gallery.php:85
+#: ../format-image.php:66
+#: ../format-link.php:58
+#: ../format-quote.php:65
+#: ../format-standard.php:60
+#: ../format-video.php:97
+#, php-format
+msgid "<span class=\"tagged\">Tagged:</span> %2$s"
+msgstr ""
+
+#: ../format-audio.php:34
+msgid "Audio"
+msgstr ""
+
+#: ../format-gallery.php:19
+msgid "Gallery"
+msgstr ""
+
+#: ../format-image.php:24
+msgid "Image"
+msgstr ""
+
+#: ../format-link.php:16
+msgid "Link"
+msgstr ""
+
+#: ../format-quote.php:14
+msgid "Quote"
+msgstr ""
+
+#: ../format-quote.php:24
+msgid "<span>%</span> Add Comments"
+msgstr ""
+
+#: ../format-standard.php:19
+msgid "Standard"
+msgstr ""
+
+#: ../format-video.php:55
+msgid "Video"
+msgstr ""
+
+#: ../functions.php:201
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:201
+msgid "edit"
+msgstr ""
+
+#: ../functions.php:206
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:225
+msgid "Pingback:"
+msgstr ""
+
+#: ../functions.php:225
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:253
+msgid "Sidebar Blog"
+msgstr ""
+
+#: ../functions.php:255
+msgid "The primary sidebar for Blog."
+msgstr ""
+
+#: ../functions.php:263
+msgid "Sidebar Page"
+msgstr ""
+
+#: ../functions.php:265
+msgid "The primary sidebar for Pages."
+msgstr ""
+
+#: ../functions.php:273
+msgid "Secondary Sidebar (Blog and Pages)"
+msgstr ""
+
+#: ../functions.php:275
+msgid "The secondary sidebar for Blog and Pages."
+msgstr ""
+
+#: ../functions.php:283
+msgid "Footer First"
+msgstr ""
+
+#: ../functions.php:285
+#: ../functions.php:295
+#: ../functions.php:305
+msgid "An optional widget area for your site footer."
+msgstr ""
+
+#: ../functions.php:293
+msgid "Footer Second"
+msgstr ""
+
+#: ../functions.php:303
+msgid "Footer Third"
+msgstr ""
+
+#: ../functions.php:536
+#: ../functions.php:564
+msgid "Login"
+msgstr ""
+
+#: ../functions.php:538
+#: ../functions.php:566
+msgid "Logout"
+msgstr ""
+
+#: ../functions.php:564
+msgid "Sign Up"
+msgstr ""
+
+#: ../functions.php:779
+msgid "Insert into Post"
+msgstr ""
+
+#: ../functions.php:779
+msgid "Use This Media"
+msgstr ""
+
+#: ../header.php:21
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../loop-search.php:7
+#: ../loop.php:7
+#: ../search.php:23
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: ../loop-search.php:21
+#, php-format
+msgid "Posted on <a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\">%3$s</time></a> <span class=\"by-author\">by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+msgstr ""
+
+#: ../loop-search.php:26
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../loop-search.php:81
+#: ../single-project.php:124
+msgid "Posted in "
+msgstr ""
+
+#: ../loop-search.php:100
+msgid "Tagged"
+msgstr ""
+
+#: ../loop-search.php:122
+#, php-format
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr ""
+
+#: ../loop-search.php:149
+#: ../loop.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older"
+msgstr ""
+
+#: ../loop-search.php:150
+#: ../loop.php:45
+msgid "Newer <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../search.php:8
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../single-project.php:98
+msgid "Pages:"
+msgstr ""
+
+#: ../single-project.php:142
+#: ../taxonomy-portfolios.php:246
+#: ../taxonomy-project_category.php:236
+#: ../taxonomy-project_tag.php:236
+msgid "Tagged: "
+msgstr ""
+
+#: ../single-project.php:164
+msgid "Project Details"
+msgstr ""
+
+#: ../single-project.php:167
+msgid "Client: "
+msgstr ""
+
+#: ../single.php:30
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../tag.php:7
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../taxonomy-portfolios.php:107
+#: ../taxonomy-project_category.php:105
+#: ../taxonomy-project_tag.php:105
+msgid "Ooops! nothing found..."
+msgstr ""
+
+#: ../taxonomy-portfolios.php:201
+#: ../taxonomy-project_category.php:191
+#: ../taxonomy-project_tag.php:191
+msgid "View"
+msgstr ""
+
+#: ../taxonomy-project_category.php:44
+msgid "Current Category:"
+msgstr ""
+
+#: ../taxonomy-project_tag.php:44
+msgid "Current Tag:"
+msgstr ""
+
+#: ../admin/classes/class.options_machine.php:455
+msgid "Last Backup : "
+msgstr ""
+
+#: ../admin/classes/class.options_machine.php:515
+msgid "Upload"
+msgstr ""
+
+#: ../admin/front-end/options.php:68
+msgid "Save Settings"
+msgstr ""
+
+#: ../admin/front-end/options.php:69
+msgid "Reset Options"
+msgstr ""
+
+#: ../admin/functions/functions.mediauploader.php:20
+msgid "Options"
+msgstr ""
+
+#: ../admin/functions/functions.mediauploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../functions/framework_setup.php:70
+msgid "Header Navigation"
+msgstr ""
+
+#: ../functions/framework_setup.php:71
+msgid "Home Message Navigation"
+msgstr ""
+
+#: ../functions/framework_setup.php:72
+msgid "Footer Navigation"
+msgstr ""
+
+#: ../functions/meta-box-project.php:97
+#: ../functions/portfolio-functions.php:266
+msgid "Remove Media"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:26
+#: ../functions/portfolio-functions.php:37
+msgid "Projects"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:27
+msgid "Project"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:28
+#: ../functions/portfolio-functions.php:29
+#: ../functions/portfolio-functions.php:31
+msgid "Add New Project"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:30
+msgid "Edit Project Post"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:32
+msgid "View Project"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:33
+msgid "Search Project"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:34
+msgid "No Projects found"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:35
+msgid "No Project found in trash"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:36
+msgid "All Projects"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:316
+#: ../functions/portfolio-functions.php:514
+msgid "Portfolio"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:458
+#: ../functions/portfolio-functions.php:513
+msgid "Thumbnail"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:478
+#: ../functions/portfolio-functions.php:481
+#: ../functions/portfolio-functions.php:544
+#: ../functions/portfolio-functions.php:576
+#: ../functions/portfolio-functions.php:592
+#: ../functions/portfolio-functions.php:602
+msgid "None"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:508
+msgid "Author"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:509
+msgid "Categories"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:510
+msgid "Tags"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:511
+msgid "Comments"
+msgstr ""
+
+#: ../functions/portfolio-functions.php:512
+msgid "Date"
+msgstr ""
+
+#: ../inc/related-posts.php:4
+msgid "Related Posts"
+msgstr ""
+
+#: ../inc/related-posts.php:141
+#: ../inc/related-posts.php:145
+#: ../widgets/widget-blog.php:131
+#, php-format
+msgid "%2$s"
+msgstr ""
+
+#: ../inc/related-projects.php:128
+msgid "Related Projects"
+msgstr ""
+
+#: ../page-templates/archives.php:30
+msgid "Latest 30 Posts"
+msgstr ""
+
+#: ../page-templates/archives.php:43
+msgid "Categories Archives"
+msgstr ""
+
+#: ../page-templates/archives.php:50
+msgid "Monthly Archives"
+msgstr ""
+
+#: ../page-templates/archives.php:58
+msgid "Portfolio Archives"
+msgstr ""
+
+#: ../page-templates/contact.php:83
+msgid "Something went wrong! Please check if you've filled all the fields with valid informations and try again."
+msgstr ""
+
+#: ../page-templates/contact.php:89
+msgid "Thank you for contacting us!"
+msgstr ""
+
+#: ../page-templates/contact.php:90
+msgid "Your email was successfully sent and we'll get back to you shortly.<br/>Sometimes if we are quite busy it may take us longer, but we promise to get back to you."
+msgstr ""
+
+#: ../page-templates/contact.php:97
+msgid "Name"
+msgstr ""
+
+#: ../page-templates/contact.php:102
+msgid "Email"
+msgstr ""
+
+#: ../page-templates/contact.php:107
+msgid "Message"
+msgstr ""
+
+#: ../widgets/widget-blog.php:28
+msgid "Display your blog posts"
+msgstr ""
+
+#: ../widgets/widget-blog.php:32
+msgid "Mav Blog Posts"
+msgstr ""
+
+#: ../widgets/widget-blog.php:99
+msgid "Read"
+msgstr ""
+
+#: ../widgets/widget-blog.php:194
+#: ../widgets/widget-portfolio.php:236
+#: ../widgets/widget-tweets.php:121
+msgid "Widget Title"
+msgstr ""
+
+#: ../widgets/widget-blog.php:198
+msgid "Category Name"
+msgstr ""
+
+#: ../widgets/widget-blog.php:210
+#: ../widgets/widget-portfolio.php:254
+msgid "Number of Posts"
+msgstr ""
+
+#: ../widgets/widget-blog.php:213
+msgid "Define the number of blog posts you want to display (-1 shows all posts)."
+msgstr ""
+
+#: ../widgets/widget-blog.php:219
+msgid "Show Post Thumbnail"
+msgstr ""
+
+#: ../widgets/widget-portfolio.php:180
+msgid "View Case Study"
+msgstr ""
+
+#: ../widgets/widget-portfolio.php:257
+msgid "Define the number of posts you want to display within the selected Portfolio (-1 shows all posts)."
+msgstr ""
+
+#: ../widgets/widget-portfolio.php:263
+msgid "Display the Project Description"
+msgstr ""
+
+#: ../widgets/widget-tweets.php:28
+msgid "Show your tweets"
+msgstr ""
+
+#: ../widgets/widget-tweets.php:32
+msgid "Mav Tweets"
+msgstr ""
+
+#: ../widgets/widget-tweets.php:125
+msgid "Username"
+msgstr ""
+
+#: ../widgets/widget-tweets.php:129
+msgid "Number of Tweets"
+msgstr ""
+
+#: ../widgets/widget-tweets.php:132
+msgid "Define the number of tweets you want to display (-1 shows all tweets - max 20)."
+msgstr ""
+
+#: ../widgets/widget-tweets.php:136
+msgid "Follow Link Text"
+msgstr ""
+
