@@ -28,7 +28,7 @@
 	<h3 id="comments-title">
 		<?php
 			/*printf( _n( '1 Comment on &ldquo;%2$s&rdquo;', '%1$s Comments on &ldquo;%2$s&rdquo;', get_comments_number(), 'framework' ),*/
-			printf( _n( '1 Comment', '%1$s Comments', get_comments_number(), 'framework' ),
+			printf( _n( '1 [:en]Comment[:tr]Yorum', '%1$s [:en]Comments[:tr]Yorum', get_comments_number(), 'framework' ),
 				number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
 		?>
 	</h3>
@@ -71,7 +71,7 @@
 	<?php endif; // end have_comments() ?>
 
 	<?php /*comment_form();*/ ?>
-	<?php $form_args = array( 'title_reply' => 'Add Comment' ); ?>
+	<?php $form_args = array( 'title_reply' => '[:en]Add Comment[:tr]Yorum Ekle' ); ?>
 	<?php comment_form( $form_args ); ?>
 
 </section> <!-- /end #comments -->
