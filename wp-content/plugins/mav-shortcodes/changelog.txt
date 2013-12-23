@@ -1,0 +1,60 @@
+
+=== Changelog ===
+
+Plugin Name: Mav Shortcodes
+
+Plugin URI: http://mattiaviviani.com/
+
+Version: 1.0.4
+
+Author: Mattia Viviani
+
+Author URI: http://mattiaviviani.com
+
+License: GNU General Public License v2 or later
+
+
+#### Help and Support
+If you have questions/bug reports/feature requests please visit the dedicated Support Forum at http://support.mattiaviviani.com
+
+
+#### Donation and more stuff at http://mattiaviviani.com
+
+
+== Installation ==
+
+As always, make a backup of your database first!
+
+1. Unzip the archive and upload the mav-shortcodes folder into your plugins folder (wp-content/plugins/).
+2. Activate Mav Shortcodes plugin from the Plugins menu.
+3. Done! You will now find the Mav button in the Visual Editor toolbar.
+
+
+== Changelog ==
+
+#### 1.0.4 - Oct 17, 2013
+
+- Fixed compatibility bug with WordPress 3.6+
+	- css/smoothness/jquery-ui-1.9.2.custom.css
+	- css/base/jquery.ui.dialog.css
+
+
+#### 1.0.3 - May 18, 2013
+
+- Minor framework compatibility bug fixes
+	- css/shortcodes.css
+
+#### 1.0.2 - Apr 8, 2013
+
+- Minor bug fixes
+	- css/shortcodes.css
+
+#### 1.0.1
+
+- Fixed minor compatibility bug with WordPress 3.5 (css/shortcodes.css, shortcodes.php) 
+- Fixed Firefox not reading correctly the Tabs Title (shortcodes.php 162-163)
+
+#### 1.0.0
+
+- First Public Release
+

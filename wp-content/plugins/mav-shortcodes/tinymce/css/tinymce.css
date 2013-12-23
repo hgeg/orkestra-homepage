@@ -1,0 +1,270 @@
+
+/*-----------------------------------------------------------------------------------*/
+/* TinyMCE CSS */
+/*-----------------------------------------------------------------------------------*/
+
+#mav-dialog { display: block; }
+
+#mav-options {
+	display: inline-block;
+	width: 460px;
+	/*width: 100%;
+	min-width: 420px;*/
+	margin-right: 10px;
+	float: left;
+}
+
+#mav-options h3,
+#mav-preview h3,
+#mav-options-error h3 {
+	margin: 1em 0;
+	font-size: 1.6em;
+	color: #5a5a5a;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+}
+
+#mav-preview h3 { margin-bottom: 13px; padding-left: 7px; }
+
+#mav-options-error p { margin: 0; }
+
+#mav-options-error h4 { margin: 1.33em 0 0.8em 0; }
+
+#mav-options-table {
+	border: 1px solid #dfdfdf;
+	width: 100%;
+	margin-bottom: 8px;
+
+	padding: 13px;
+	background: #f7f8f9;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#mav-options-table th { padding-top: 0.2em; }
+
+#mav-options-table td {
+	vertical-align: middle;
+	padding: 0 5px 8px 0;
+}
+
+#mav-options-table input,
+#mav-options-table textarea,
+#mav-cloned-group input[type="text"] {
+	width: 100%;
+	min-width: 340px;
+	margin-bottom: 5px !important;
+	background-color: #fff;
+	border: 1px solid;
+	border-color: #c6ccd1 !important;
+	padding: 7px;
+	outline-style: none;
+	-webkit-box-shadow: inset 0 1px 2px #D8DBDF;
+	-moz-box-shadow: inset 0 1px 2px #d8dbdf;
+	box-shadow: inset 0 1px 2px #D8DBDF;
+	-webkit-transition: border-color .1s linear 0s, box-shadow .2s linear 0s;
+	-moz-transition: border-color .1s linear 0s, box-shadow .2s linear 0s;
+	transition: border-color .1s linear 0s, box-shadow .2s linear 0s;
+}
+
+#mav-options-table input:focus,
+#mav-options-table textarea:focus,
+#mav-cloned-group input[type="text"]:focus {
+	border-color: rgba(100, 173, 208, .7) !important;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .1), 0 0 5px rgba(100, 173, 208, .7);
+	-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .1), 0 0 5px rgba(100, 173, 208, .7);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, .1), 0 0 5px rgba(100, 173, 208, .7);
+}
+
+
+#mav-options-table th label {
+	margin: 6px 20px 6px 0;
+	font-weight: bold;
+	font-size: 12px;
+	color: #333;
+	display: block;
+	text-align: left;
+}
+
+.mav-input-help {
+	font-size: 11px;
+	color: #333;
+	font-style: italic;
+	margin-bottom: 3px; display: inline-block;
+}
+
+abbr.mav-required { color: red; }
+
+label.mav-required {  }
+
+input.mav-required {  }
+
+.mav-validating {
+    /*background: url(../img/globe-preloader.gif) no-repeat scroll right center transparent;*/
+    padding-right: 18px;
+}
+
+.mav-validated {
+    background: url(../img/checkmark.gif) no-repeat scroll right center transparent;
+    padding-right: 15px;
+}
+
+.mav-validation-error {
+    /*background: url(../img/x.gif) no-repeat scroll right center transparent;
+    padding-right: 15px;*/
+}
+
+#mav-preview {
+	width: 260px;
+	display: inline-block;
+}
+
+#mav-preloader { position: absolute; }
+
+.mav-loading {
+    background: url(../img/preloader.gif) no-repeat scroll right center transparent;
+    padding-right: 15px;
+}
+
+
+/**** Column Control ****/
+
+div.column-button {
+    border: 1px solid #333;
+    width: 100px;
+    margin:  4px 0;
+    text-align: center;
+}
+
+input.column-button[disabled],
+input.column-button[disabled]:hover {
+    background-color: #fff !important;
+    color: #aaa;
+    border: 1px solid #eee;
+}
+
+input.column-button {
+    float: left;
+    clear: left;
+    margin-top: 2px;
+    border: 1px solid #777;
+    background-color: #eee !important;
+}
+
+.rounded5p {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#mav-column-text {
+    border: 1px solid #aaa;
+    font-size: 22px;
+    font-family: Sans-serif;
+    padding: 5px 40px 5px 5px;
+}
+
+.mav-woolink span { text-decoration: underline !important; }
+
+
+/**** jQuery Fix ****/
+
+/* Overlays */
+.ui-widget-overlay { background: #000000 url(../../css/smoothness/images/ui-bg_flat_0_000000_40x100.png) 50% 50% repeat; opacity: .3;filter:Alpha(Opacity=30); }
+.ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #000000 url(../../css/smoothness/images/ui-bg_flat_0_000000_40x100.png) 50% 50% repeat; opacity: .3;filter:Alpha(Opacity=30); -moz-border-radius: 8px; -khtml-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
+
+.ui-widget textarea {
+	margin: 0.962963px;
+	width: 307px;
+	height: 110px;
+	resize: none;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/* Misc */
+/*-----------------------------------------------------------------------------------*/
+
+form#mav-option-form label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red !important;
+	font-style: italic;
+	margin-bottom: 5px; display: inline-block;
+}
+
+form#mav-option-form div.error { display: none; }
+
+form#mav-option-form input.error, form#mav-option-form textarea.error { border: 1px solid red !important; }
+
+.ui-dialog {
+	padding: 0;
+	border-color: #fff;
+	border-width: 3px;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	color: #fff;
+	padding: 10px 15px;
+	font-weight: normal;
+	background: #202223;
+	border: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.ui-dialog-buttonpane {
+	border: 1px solid #d8dbdf;
+	/*background: #f7f8f9;*/
+	padding-top: 8px !important;
+}
+
+#mav-cloned-group { margin-bottom: 6px; }
+
+.mav-group-name-text { margin-bottom: -8px; display: block; }
+
+tbody.mav-options-cloned {
+	/*background: #FC0;*/
+	border-top: 1px solid #d8dbdf;
+	padding-top: 20px;
+	margin-top: 10px;
+	display: block;
+}
+
+tbody.mav-options-cloned:first-child {
+	border-top: none;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.ui-button-text-only .ui-button-text {
+	background: #f6f6f6 url(../img/ui-bg_highlight-soft_100_f6f6f6_1x100.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #3b4045;
+	font-size: 12px !important;
+}
+
+.ui-button-text-only .ui-button-text:hover {
+	background: #0073ea url(../img/ui-bg_highlight-soft_25_0073ea_1x100.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+button.ui-state-default {
+	border: 1px solid #c6ccd1 !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
+
+button.ui-state-default:hover { border: 1px solid #0361c2 !important; }
+
+.mav-marker-select-control { margin-bottom: 5px }
+
+
+
