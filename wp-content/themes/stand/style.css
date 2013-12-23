@@ -2048,7 +2048,7 @@ img#wpstats { display: block; margin: 0 auto 10px; }
 /* =Design                                                                                    */
 /*-------------------------------------------------------------------------------------------*/
 
-body, h1, h2, h3, h4, h5, h6, button, input, select, textarea { font-family: 'Merriweather', serif !important;}
+body, h1, h2, h3, h4, h5, h6, button, input, select, textarea { font-family: 'Merriweather', serif;}
 
 body { background-attachment: fixed; }
 
