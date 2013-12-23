@@ -78,7 +78,7 @@
 	 */
 	function google_fonts() {
 		$protocol = is_ssl() ? 'https' : 'http';
-		wp_enqueue_style( 'framework-fonts', "$protocol://fonts.googleapis.com/css?family=Merriweather&#8217' rel='stylesheet' type='text/css" );
+		wp_enqueue_style( 'framework-fonts', "$protocol://fonts.googleapis.com/css?family=Merriweather:300,400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css" );
 	}
 
 	add_action( 'wp_enqueue_scripts', 'google_fonts' );
