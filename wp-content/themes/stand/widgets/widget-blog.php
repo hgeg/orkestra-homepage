@@ -120,7 +120,7 @@ class MAV_Blog extends WP_Widget {
 
 						<a href="<?php the_permalink() ?>" class="entry-format <?php echo $format; ?>"><?php echo $format; ?></a>
 
-						<span class="posted-on"><?php _e( 'Posted on', 'framework' ); ?> <a href="<?php the_permalink() ?>"><?php /* http://codex.wordpress.org/Formatting_Date_and_Time */ echo get_the_date('F j, Y'); ?></a></span>
+						<span class="posted-on"><?php _e( '[:en]Posted on[:tr]Tarih: ', 'framework' ); ?> <a href="<?php the_permalink() ?>"><?php /* http://codex.wordpress.org/Formatting_Date_and_Time */ echo get_the_date('F j, Y'); ?></a></span>
 
 						<span class="by-author"><?php _e( 'by', 'framework' ); ?> <?php the_author_posts_link(); ?></span>
 <br/>
