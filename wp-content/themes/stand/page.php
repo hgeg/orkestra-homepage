@@ -14,7 +14,7 @@
 	</header> <!-- /end .page-header -->
 
 	<section class="entry-content">
-		<?php the_content( __( '[:en]Read More[:tr]Devamını Oku', 'framework' ) ); ?>
+		<?php the_content( __( 'Read More', 'framework' ) ); ?>
 	</section> <!-- /end .entry-content -->
 	
 	<?php comments_template( '', true ); ?>
