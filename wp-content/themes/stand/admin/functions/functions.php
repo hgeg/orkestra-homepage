@@ -157,8 +157,17 @@ function theme_analytics() {
 
 add_action('wp_footer','theme_analytics');
 
-if (function_exists('wpml_register_admin_strings')) {
-    wpml_register_admin_strings('a:1:{s:13:"Stand_options";a:5:{s:18:"home_message_title";s:12:"Hello People";s:17:"home_message_text";s:151:"We are Orkestra. We are a company who creates mobile applications and websites, we are addicted to music, excited entrepreneurs and we love what we do!";s:10:"quote_text";s:89:"\"The best way to <a href=\"#\">predict</a> the future is to <a href=\"#\">create</a> it.";s:21:"portfolios_home_title";s:10:"What We Do";s:19:"projects_home_title";s:12:"Recent Works";}}');
-}
+require_once ( ABSPATH . 'wp-admin/includes/plugin.php' );
+$lookforqt = 'qtranslate/qtranslate.php';
+$category_description = category_description();
+     if ( ! empty( $category_description ) ) {
 
+    if (is_plugin_active( $lookforqt )) { 
+
+             _e( '<div class="category-archive-meta-multilingual">' . $category_description, 'qtranslate' . '</div>' );
+              } else { 
+
+             echo apply_filters( 'category_archive_meta', '<div class="category-archive-meta">' . $category_description . '</div>' );
+          }
+    }
 ?>
