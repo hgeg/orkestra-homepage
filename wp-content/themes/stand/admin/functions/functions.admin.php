@@ -30,7 +30,6 @@ function of_option_setup()
 	{
 		update_option(OPTIONS,$options_machine->Defaults);
 	}
-  pll_register_string('home_message_title',$of_options['home_message_title']);
 }
 
 /**

@@ -5,10 +5,10 @@
 global $mav_data;
 ?>
 <?php if ( $mav_data['home_message_title'] ) : ?>
-<h1><?php echo do_shortcode(stripslashes($pll__($mav_data['home_message_title']))); ?></h1>
+<h1><?php echo do_shortcode(stripslashes($mav_data['home_message_title'])); ?></h1>
 <?php endif; ?>
 <?php if ( $mav_data['home_message_text'] ) : ?>
-<p><?php echo do_shortcode(stripslashes($pll__($mav_data['home_message_text']))); ?></p>
+<p><?php echo do_shortcode(stripslashes($mav_data['home_message_text'])); ?></p>
 <?php endif; ?>
 
 <?php if ( has_nav_menu( 'secondary' ) ) : ?>
