@@ -308,8 +308,7 @@ function qtrans_initJS() {
 		";
 		
 	$q_config['js']['qtrans_switch_postbox'] = "
-		function qtrans_switch_postbox(parent, target, lang, focus) {
-			if(typeof(focus)==='undefined') focus = true;
+		function qtrans_switch_postbox(parent, target, lang) {
 	";
 	foreach($q_config['enabled_languages'] as $language)
 		$q_config['js']['qtrans_switch_postbox'].= "
@@ -322,9 +321,7 @@ function qtrans_initJS() {
 			if(lang!=false) {
 				jQuery('#qtrans_switcher_'+parent+'_'+lang).addClass('switch-tmce');
 				jQuery('#qtrans_switcher_'+parent+'_'+lang).addClass('switch-html');
-				jQuery('#qtrans_textarea_'+target+'_'+lang).show();
-				if(focus)
-					jQuery('#qtrans_textarea_'+target+'_'+lang).focus();
+				jQuery('#qtrans_textarea_'+target+'_'+lang).show().focus();
 			}
 		}
 	";
