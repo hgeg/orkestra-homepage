@@ -385,7 +385,7 @@ $of_options[] = array( "name" => "Home Message",
 					// "fold" => "home_message", /* the checkbox hook */
 					"type" => "text");
 
-pll_register_string('custom',$of_options["id"]);
+pll_register_string('custom',$of_options['id']);
 
 $of_options[] = array( "name" => "",
 					"desc" => "Enter the text you would like to display as home message. You may use HTML and shortcodes: [signup-link] [the-year] [blog-title] [blog-link] [wp-link] [loginout-link]",
