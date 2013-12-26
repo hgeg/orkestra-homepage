@@ -1,4 +1,10 @@
 <?php
+if (function_exists('wpml_register_admin_strings')) {
+    wpml_register_admin_strings('a:1:{s:13:"Stand_options";a:7:{s:18:"home_message_title";s:12:"Howdy Folks!";s:17:"home_message_text";s:57:"Enter the text you would like to display as home message.";s:10:"quote_text";s:54:"Bike messenger by day, aspiring actor by night, etc...";s:21:"portfolios_home_title";s:10:"What We Do";s:15:"portfolios_desc";s:54:"Bike messenger by day, aspiring actor by night, etc...";s:19:"projects_home_title";s:12:"Recent Works";s:13:"projects_desc";s:54:"Bike messenger by day, aspiring actor by night, etc...";}}');
+}
+?>
+
+<?php
 
 // These are functions specific to the included option settings and this theme
 
