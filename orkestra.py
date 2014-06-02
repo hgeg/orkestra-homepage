@@ -34,7 +34,7 @@ class Contact:
       message['To'] = email.utils.formataddr(('Recipient', 'alicanblbl@gmail.com'))
       message['From'] = email.utils.formataddr(('Author', form['email']))
       message['Subject'] = 'ORKESTRA: %s'%form['topic']
-      sender.sendmail(form['email'], ['alicanblbl@gmail.com,tanerman@gmail.com'], message.as_string())
+      sender.sendmail(form['email'], ['alicanblbl@gmail.com','tanerman@gmail.com'], message.as_string())
     finally:
       sender.quit()
       web.redirect('/')
