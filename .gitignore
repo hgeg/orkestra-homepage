@@ -13,4 +13,4 @@ wp-content/backups/
 sitemap.xml.gz
 start
 stop
-pull.py
+creds.py
