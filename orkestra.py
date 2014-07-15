@@ -19,22 +19,20 @@ class Contact:
   def GET(self):
     web.redirect('/')
   def POST(self):
-    #server = smtplib.SMTP('127.0.0.1', 1025)
     #Connect to the SMTP server
     sender = smtplib.SMTP()
     sender.connect('smtp.gmail.com',587)
     #gmail auth methods
-    sender.ehlo()
-    sender.starttls()
-    sender.ehlo()
+    sender.ehlo();sender.starttls();sender.ehlo()
     sender.login(creds.email,creds.password)
     try:
       form = web.input()
-      message = MIMEText(form['message'],'plain','utf-8')
+      body = form['message']+"\n\nisim: "+form['name']+"\ne-posta: "+form['email']
+      message = MIMEText(body,'plain','utf-8')
       message['To'] = email.utils.formataddr(('Recipient', 'alicanblbl@gmail.com'))
       message['From'] = email.utils.formataddr(('Author', form['email']))
       message['Subject'] = 'ORKESTRA: %s'%form['topic']
-      sender.sendmail(form['email'], ['alicanblbl@gmail.com','tanerman@gmail.com'], message.as_string())
+      sender.sendmail(form['email'], ['alicanblbl@gmail.com','tanerman@gmail.com','ismailkok@orkestrayazilim.com'], message.as_string())
     finally:
       sender.quit()
       web.redirect('/')
