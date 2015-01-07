@@ -27,8 +27,8 @@ class Contact:
     sender.login(creds.email,creds.password)
     try:
       form = web.input()
-      captcha = form['g-recaptcha-response ']
-      if captcha == "": web.redirect('/')
+      #captcha = form['g-recaptcha-response ']
+      #if captcha == "": web.redirect('/')
       body = form['message']+"\n\nisim: "+form['name']+"\ne-posta: "+form['email']
       message = MIMEText(body,'plain','utf-8')
       message['To'] = email.utils.formataddr(('Recipient', 'alicanblbl@gmail.com'))
