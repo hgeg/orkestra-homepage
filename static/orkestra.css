@@ -14,7 +14,7 @@ html{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e4a5056', endColorstr='#00000000',GradientType=0 );
 }
 body{
-	padding-bottom: 20px;
+	padding: 20px 0 20px 0;
 	font-family: Orkestra;
 	font-size: 18px;
 	color:#4a5056;	
@@ -27,13 +27,9 @@ ul{
 li{
 	padding-bottom: 10px;
 }
-h2{
-	font-family: Merriweather;
-}
 img.logo{
-	width: 43px;
+	width: 200px;
 	height: 50px;
-	vertical-align: bottom;
 }
 .row{
 	overflow: none;
