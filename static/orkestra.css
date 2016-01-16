@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Orkestra;
+    src: url(orkestra.otf);
+}
+body{
+	font-family: Orkestra;
+	font-size: 18px;
+	color:#4a5056;
+}
+ul{
+	padding-left: 0;
+	list-style: circle url("")
+}
+li{
+	padding-bottom: 10px;
+}
+.emphasize{
+	padding: 2px 4px 0 4px;
+	color: white;
+	background-color: #4a5056;
+	cursor: default;
+}
+.emphasize:hover{
+	background-color: #fa4141;
+}
