@@ -30,7 +30,9 @@ li{
 h2{
 	font-family: Merriweather;
 }
-img{
+img.logo{
+	width: 43px;
+	height: 50px;
 	vertical-align: bottom;
 }
 .row{
