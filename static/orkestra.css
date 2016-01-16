@@ -2,18 +2,23 @@
     font-family: Orkestra;
     src: url(orkestra.otf);
 }
+@font-face {
+    font-family: Merriweather;
+    src: url(merriweather.otf);
+}
 html{
 	height: 100%;
-	background: -moz-linear-gradient(180deg,  rgba(74,80,86,0.18) 0%, rgba(19,20,22,0) 75%, rgba(0,0,0,0) 100%) no-repeat fixed;
-	background: -webkit-linear-gradient(180deg,  rgba(74,80,86,0.18) 0%,rgba(19,20,22,0) 75%,rgba(0,0,0,0) 100%) no-repeat fixed;
-	background: linear-gradient(180deg,  rgba(74,80,86,0.18) 0%,rgba(19,20,22,0) 75%,rgba(0,0,0,0) 100%) no-repeat fixed;
+	background: -moz-linear-gradient(180deg,  rgba(74,80,86,0.1) 0%, rgba(19,20,22,0) 80%, rgba(0,0,0,0) 100%) no-repeat fixed;
+	background: -webkit-linear-gradient(180deg,  rgba(74,80,86,0.1) 0%,rgba(19,20,22,0) 80%,rgba(0,0,0,0) 100%) no-repeat fixed;
+	background: linear-gradient(180deg,  rgba(74,80,86,0.1) 0%,rgba(19,20,22,0) 80%,rgba(0,0,0,0) 100%) no-repeat fixed;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e4a5056', endColorstr='#00000000',GradientType=0 );
 }
 body{
+	padding-bottom: 20px;
 	font-family: Orkestra;
 	font-size: 18px;
-	color:#4a5056;
-	padding: 20px 0 40px 0;
+	color:#4a5056;	
+
 }
 ul{
 	padding-left: 0;
@@ -22,14 +27,22 @@ ul{
 li{
 	padding-bottom: 10px;
 }
+h2{
+	font-family: Merriweather;
+}
+img{
+	vertical-align: bottom;
+}
 .row{
 	overflow: none;
 }
 .emphasize{
-	padding: 2px 4px 0 4px;
+	display: inline-block;
+	padding: 2px 4px 2px 4px;
 	color: white;
 	background-color: #4a5056;
 	cursor: default;
+	vertical-align: baseline;
 }
 .harfmarf:hover{
 	background-color: #575269;
