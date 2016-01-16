@@ -4,7 +4,6 @@
 }
 html{
 	height: 100%;
-	margin: 0;
 	background: -moz-linear-gradient(180deg,  rgba(74,80,86,0.18) 0%, rgba(19,20,22,0) 75%, rgba(0,0,0,0) 100%) no-repeat fixed;
 	background: -webkit-linear-gradient(180deg,  rgba(74,80,86,0.18) 0%,rgba(19,20,22,0) 75%,rgba(0,0,0,0) 100%) no-repeat fixed;
 	background: linear-gradient(180deg,  rgba(74,80,86,0.18) 0%,rgba(19,20,22,0) 75%,rgba(0,0,0,0) 100%) no-repeat fixed;
