@@ -21,6 +21,21 @@ li{
 	background-color: #4a5056;
 	cursor: default;
 }
-.emphasize:hover{
+.harfmarf:hover{
+	background-color: #575269;
+}
+.beatografi:hover{
 	background-color: #fa4141;
+}
+.nebuu:hover{
+	background-color: #542437;
+}
+.akorlar:hover{
+	background-color: #d76450;
+}
+.countdo:hover{
+	background-color: #59cbb5;
+}
+.ply:hover{
+	background-color: #1c4e5b;
 }
