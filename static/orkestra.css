@@ -16,7 +16,7 @@ li{
 	padding-bottom: 10px;
 }
 .row{
-	width: 100%;
+	overflow: none;
 }
 .emphasize{
 	padding: 2px 4px 0 4px;
