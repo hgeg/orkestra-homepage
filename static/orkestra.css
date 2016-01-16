@@ -10,7 +10,6 @@ html{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e4a5056', endColorstr='#00000000',GradientType=0 );
 }
 body{
-	height: 100%;
 	font-family: Orkestra;
 	font-size: 18px;
 	color:#4a5056;
