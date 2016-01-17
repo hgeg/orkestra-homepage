@@ -47,6 +47,9 @@ a{
 	background-color: #4a5056;
 	vertical-align: baseline;
 }
+.emp-about{
+	padding: 2px 4px 0 4px;
+}
 .harfmarf:hover{
 	background-color: #575269;
 }

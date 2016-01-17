@@ -10,6 +10,14 @@
         <link rel="stylesheet" href="static/min.css">
         <link rel="stylesheet" href="static/orkestra.css">
     </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+      setInterval(function () {
+         var value = parseInt($('#badge').html());
+         value++;
+         $('#badge').html(value);
+    }, 30000);
+    </script>
     <body>
         <div class="container">
             <div class="row">
@@ -18,7 +26,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col c4">We are a studio who creates products full of art and creativity to the mobile world. We follow the world, we help around. We're always looking for the best. <!--We've reached 1.000.000 people with the things so far.--></div>
+                <div class="col c4">We are a studio who creates products full of art and creativity to the mobile world. We follow the world, we help around. We're always looking for the best. We've reached <span id="counter" class="emphasize emp-about">1000000</span> people with the things we have done so far.</div>
             </div>
              <div class="row">
                 <div class="col c4">
@@ -40,7 +48,7 @@
             </div>
             <div class="row">
                 <div class="col c4">
-                    Contact us at <br>berkcan<img class="bueno" src="static/bueno.png"/>orkestrayazilim.com
+                    Contact Berk Can to getting touch with us. <br>berkcan<img class="bueno" src="static/bueno.png"/>orkestrayazilim.com
                 </div>
             </div>
             <footer>    

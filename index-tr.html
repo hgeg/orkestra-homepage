@@ -9,6 +9,14 @@
         <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon" />        
         <link rel="stylesheet" href="static/min.css">
         <link rel="stylesheet" href="static/orkestra.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script>
+          setInterval(function () {
+             var value = parseInt($('#counter').html());
+             value++;
+             $('#counter').html(value);
+        }, 30000);
+        </script>
     </head>
     <body>
         <div class="container">
@@ -18,7 +26,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col c4">Mobil dünyaya yaratıcılık ve sanat ile birleşmiş ürünler sunan bir stüdyoyuz. Etrafımızda olap bitenleri takip eder, gerektiğinde yardımcı oluruz. Her zaman en iyisi için uğraşırız. <!--Yarattıklarımız sayesinde 1.000.000 insana ulaştık.--></div>
+                <div class="col c4">Mobil dünyaya yaratıcılık ve sanat ile birleşmiş ürünler sunan bir stüdyoyuz. Etrafımızda olap bitenleri takip eder, gerektiğinde yardımcı oluruz. Her zaman en iyisi için uğraşırız. Yarattıklarımız sayesinde <span id="counter" class="emphasize emp-about">1000000</span>  insana ulaştık.</div>
             </div>
              <div class="row">
                 <div class="col c4">
@@ -40,7 +48,7 @@
             </div>
             <div class="row">
                 <div class="col c4">
-                    Bize ulaşmak istiyorsan Can'a mail at. <br>berkcan<img class="bueno" src="static/bueno.png"/>orkestrayazilim.com
+                    Bize ulaşmak istiyorsan Berk Can'a mail at. <br>berkcan<img class="bueno" src="static/bueno.png"/>orkestrayazilim.com
                 </div>
             </div>
             <footer>    
